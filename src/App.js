@@ -15,16 +15,16 @@ export default function App() {
     <Router>
     <Navbar />
     <Switch>
-      <Route path='/'>
+      <Route exact path='/'>
         <Home />
       </Route>
-      <Route path='/abt-me'>
+      <Route exact path='/abt-me'>
         <AboutMe />
       </Route>
-      <Route path='/abt-site'>
+      <Route exact path='/abt-site'>
         <AboutSite />
       </Route>
-      <Route path='/contact'>
+      <Route exact path='/contact'>
         <Contact />
       </Route>
     </Switch>
